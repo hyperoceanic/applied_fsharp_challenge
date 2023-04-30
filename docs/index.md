@@ -23,11 +23,11 @@ After evaluating several languages, I decided to use F#, mainly due to its "in-b
 
 ### What is DSP?
 
-In the analog world, physical quantities like electric currency are used to represent a signal that is finally sent to a speaker. These quantities are created and altered by low-level components like condensers, resistors, magnetic coils, transistors, and diods, which are connected to each others in circuits. They are composed in larger components like operational amplifiers that are used to build modules like filters and oscillators, which synthesizers and effect processors are made of. Digital audio signal processing (Audio DSP) is about modeling these components at different levels of abstraction, resulting in the simulation of circuits similar to their analog counterparts (of course, there is no limit to creating completely new forms of synthesizers and effects).
+In the analog world, physical quantities like electric current are used to represent a signal that is finally sent to a speaker. These quantities are created and altered by low-level components like condensers, resistors, magnetic coils, transistors, and diodes, which are connected to each others in circuits. They are composed in larger components like operational amplifiers that are used to build modules like filters and oscillators, which synthesizers and effect processors are made of. Digital audio signal processing (Audio DSP) is about modeling these components at different levels of abstraction, resulting in the simulation of circuits similar to their analog counterparts (of course, there is no limit to creating completely new forms of synthesizers and effects).
 
 #### Quantization of Time and Values
 
-Digital signal processing - in contrast to analog signal processing - deals with quantized values over a discrete time. Consider, for instance, an analog synthesizer. It creates and outputs a signal based on electric currency, which is continuous from a physical point of view. A computer cannot process values in a continuous way - it has to _quantize_ two things:
+Digital signal processing - in contrast to analog signal processing - deals with quantized values over a discrete time. Consider, for instance, an analog synthesizer. It creates and outputs a signal based on electric current, which is continuous from a physical point of view. A computer cannot process values in a continuous way - it has to _quantize_ two things:
 
 **Time:**
 
